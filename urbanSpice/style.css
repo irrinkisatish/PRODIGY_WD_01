@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.resturant-logo {
+  height: 30px;
+}
+
+.top-home-banner {
+  background-image: url("https://res.cloudinary.com/ddtx0udzb/image/upload/v1693113077/happy-waiter-serving-food-group-_l82uke.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.top-home-banner-heading {
+  color: #ffffff;
+  font-family: "Caveat";
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.top-home-banner-booking-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.top-banner-book-button {
+  width: 100px;
+  height: 50px;
+  font-family: "Roboto";
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #f09c3c;
+}
+
+.menu-section-bg {
+  background-image: linear-gradient(#1a261e, #5c695f);
+  padding: 10px;
+  background-size: cover;
+}
+
+.menu-section-heading {
+  color: #ffffff;
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 25px;
+
+  font-weight: bold;
+}
+
+.menu-section-food-image {
+  height: 70px;
+}
+
+.item-name {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  margin: 2px;
+}
+
+.food-card {
+  text-align: center;
+}
+
+.menu-section-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-section-bg {
+  background-image: linear-gradient(#e01d65, #d982a2);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 5px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contact-us-section {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.send-message-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #0548ff;
+  font-family: "Roboto";
+  color: #ffffff;
+  border-width: 0px;
+  font-size: 10px;
+}
+
+.bottom-contact-id {
+  font-size: 8px;
+}
+
+.view-more {
+  color: #eda109;
+}
+
+.serivce-heading {
+  color: #183b56;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.serivce-paragraph {
+  font-size: 25px;
+  color: #616c7c;
+}
+
+.serivce-image {
+  height: 100px;
+  width: 100px;
+}
+
+.serivce-card-heading {
+  color: #1f2933;
+  font-size: 25px;
+}
+
+.serivce-card-paragraph {
+  color: #7b8794;
+  font-size: 20px;
+}
